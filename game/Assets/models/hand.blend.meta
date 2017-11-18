@@ -1,0 +1,269 @@
+fileFormatVersion: 2
+guid: 97d11fb0d53f7d14086684342a6f1d3a
+timeCreated: 1439872481
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube_001
+    100006: Armature
+    100008: Armature_001
+    100010: Bone_003
+    100012: Bone_004
+    100014: Bone_005
+    100016: Bone_006
+    100018: Bone_007
+    100020: Bone_008
+    100022: Bone_009
+    100024: Bone_010
+    100026: Bone_011
+    100028: Bone_012
+    100030: Bone_014
+    100032: Bone_10
+    100034: Bone_11
+    100036: Bone_12
+    100038: Bone_13
+    100040: Bone_15
+    100042: Bone_4
+    100044: Bone_5
+    100046: Bone_6
+    100048: Bone_7
+    100050: Bone_8
+    100052: Bone_9
+    100054: Hand
+    100056: Hand_001
+    100058: Hand_002
+    100060: Armature_000
+    100062: Hand_003
+    100064: HandArmature
+    100066: HandRootBone
+    400000: //RootNode
+    400002: Cube
+    400004: Cube_001
+    400006: Armature
+    400008: Armature_001
+    400010: Bone_003
+    400012: Bone_004
+    400014: Bone_005
+    400016: Bone_006
+    400018: Bone_007
+    400020: Bone_008
+    400022: Bone_009
+    400024: Bone_010
+    400026: Bone_011
+    400028: Bone_012
+    400030: Bone_014
+    400032: Bone_10
+    400034: Bone_11
+    400036: Bone_12
+    400038: Bone_13
+    400040: Bone_15
+    400042: Bone_4
+    400044: Bone_5
+    400046: Bone_6
+    400048: Bone_7
+    400050: Bone_8
+    400052: Bone_9
+    400054: Hand
+    400056: Hand_001
+    400058: Hand_002
+    400060: Armature_000
+    400062: Hand_003
+    400064: HandArmature
+    400066: HandRootBone
+    2300000: //RootNode
+    2300002: Cube
+    2300004: Cube_001
+    2300006: Hand
+    2300008: Hand_001
+    3300000: //RootNode
+    3300002: Cube
+    3300004: Cube_001
+    3300006: Hand
+    3300008: Hand_001
+    4300000: Cube
+    4300002: Cube_001
+    4300004: Hand
+    4300006: Hand_002
+    4300008: Hand_001
+    4300010: Hand_003
+    7400000: HandAnimStart
+    7400002: Armature_000Action
+    7400004: HandAnimLoop
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Hand_002
+    13700002: Hand_003
+    13700004: Hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: HandAnimStart
+      takeName: Default Take
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandArmature
+        weight: 1
+      - path: HandArmature/HandRootBone
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_003
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_003/Bone_011
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_003/Bone_011/Bone_012
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004/Bone_005
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004/Bone_005/Bone_010
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004/Bone_005/Bone_010/Bone_014
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_006
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_006/Bone_007
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_006/Bone_007/Bone_008
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HandAnimLoop
+      takeName: Default Take
+      firstFrame: 105
+      lastFrame: 690
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hand
+        weight: 1
+      - path: HandArmature
+        weight: 1
+      - path: HandArmature/HandRootBone
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_003
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_003/Bone_011
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_003/Bone_011/Bone_012
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004/Bone_005
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004/Bone_005/Bone_010
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_004/Bone_005/Bone_010/Bone_014
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_006
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_006/Bone_007
+        weight: 1
+      - path: HandArmature/HandRootBone/Bone_006/Bone_007/Bone_008
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: Hand
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
